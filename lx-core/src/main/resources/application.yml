@@ -66,6 +66,6 @@ spring:
       maxOpenPreparedStatements: 20
       useGlobalDataSourceStat: false
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=1000;druid.stat.logSlowSql=true
-      url: jdbc:mysql://127.0.0.1:3306/database_name?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
-      username: xxx
-      password: xxx
+      url: jdbc:mysql://s2.s100.vip:37310/lx_doc?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+      username: root
+      password: qwer1234

@@ -1,7 +1,7 @@
 # 拉取基础镜像
 FROM openjdk:8-jdk-alpine
 # 维护人
-MAINTAINER 951645267@qq.com
+MAINTAINER 574399358@qq.com
 
 ENV SERVICE lx-doc
 
