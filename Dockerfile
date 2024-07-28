@@ -19,7 +19,7 @@ RUN mkdir -p /usr/logs/${SERVICE}/
 RUN mkdir -p /usr/attament/${SERVICE}/
 
 ADD run_in_docker.sh /usr/app/${SERVICE}/
-COPY lx-core/target/lx-doc.jar /usr/app/${SERVICE}/
+COPY lx-doc.jar /usr/app/${SERVICE}/
 
 WORKDIR /usr/app/${SERVICE}/
 

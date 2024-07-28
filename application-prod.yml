@@ -5,7 +5,7 @@ spring:
     druid:
       url: jdbc:mysql://s2.s100.vip:37310/lx_doc?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull
       username: root
-      password: lx_doc_test
+      password: qwer1234
 lx:
   doc:
     fileUploadPath: /usr/attament/${app.name}
